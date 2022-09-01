@@ -1,0 +1,134 @@
+* { box-sizing:border-box ;}
+body{
+   background-color: hsl(215, 23%, 10%);
+   display: flex;
+   justify-content: center;
+}
+
+.component {
+   display: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  padding: 1.8em;
+   background-color: hsl(215, 31%, 14%);
+}
+.active {
+   display: block;
+}
+/* svg icon */
+svg {
+   border: 1px ; 
+   width: 50px; 
+   height: 50px; 
+   padding-left: 15px;
+   padding-top: 15px;
+   border-radius: 25px;
+   background-color:hsl(215, 31%, 14%);
+}
+
+
+/* rating bar */
+.rating-component{
+   background-color: hsl(213, 19%, 18%); 
+   height: 360px;
+   width: 350px;
+   margin: auto;
+   border-radius: 25px;
+   position: relative;
+      }
+     
+     .wrapper{
+      margin: 30px;
+   }
+
+     .Question{
+      color: white;
+       font-size: 25px; 
+       font-weight: 400;
+      }
+     .feedback{
+      color: rgb(201, 194, 194);
+       font-size: 15px;
+      }
+     
+     
+     
+/* rate button */
+
+   .rate-button{
+      display: flex;
+      width: min(100%, 350px);
+      margin: 2em auto;
+      justify-content: space-between;
+   }
+     button{
+      margin-top: 5px; 
+      width: 40px; height: 40px; 
+      border-radius: 20px;
+      margin-right: 20px;
+      margin-left: 0px;
+      border: transparent; 
+      background-color: hsl(216, 12%, 8%); 
+      color: hsl(216, 12%, 54%)
+   }
+
+   button:hover {
+      color: white;
+      background-color: hsl(25, 97%, 53%);
+   }
+
+   button:active {
+      color: white;
+      background-color: hsl(217, 12%, 63%);
+   }
+
+    
+    
+    
+/* input section */
+     input {
+      width: 275px; 
+      height: 40px;
+      margin-top: 0px; 
+      font-size: 20px;
+      border-radius: 20px;
+      color: white; 
+      border: transparent; 
+      background-color: hsl(25, 97%, 53%);
+      }
+
+    input:hover {
+         color: hsl(25, 97%, 53%);
+         background-color: white;
+         transition: 0.2s;
+      }
+
+      /* Thank you block */
+
+      .Rate-choice {
+         background-color: hsl(214, 8%, 17%);
+         color: hsl(25, 97%, 53%);
+         width: max-content;
+         margin: 0 auto;
+         font-size: 15px;
+         
+      }
+      img {
+         width: max-content;
+         margin: 1em auto;
+      }
+
+      .thank-you {
+         text-align: center;
+         height: 360px;
+         width: 350px;
+         border-radius: 25px;
+       }
+      .paragraph {
+         color: hsl(217, 12%, 63%);
+      }
+      .thank-you-component {
+         color: white;
+      }
